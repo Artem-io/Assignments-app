@@ -1,0 +1,5 @@
+ALTER TABLE assignments
+    ADD teacher_id BINARY(16) NULL;
+
+ALTER TABLE assignments
+    ADD CONSTRAINT FK_ASSIGNMENTS_ON_TEACHER FOREIGN KEY (teacher_id) REFERENCES users (id);
