@@ -4,7 +4,7 @@ A website where students can submit assignments and teacher can review them and 
 ## Features
 - Users can register and log in (Spring Security + JWT)
 - Role-based authorization (teacher, student)
-- Students can create and submit new assignemnts
+- Students can create and submit new assignments
 - Teachers can review them, leave comments and change status (in review, accepted, needs update)
 
 ## Stack
